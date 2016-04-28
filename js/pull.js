@@ -35,9 +35,10 @@ function runSearch(userText){
       console.log(movie);
       //document.write(movie.Title);
       $('.results-area').append('<div class="movie-result">');
-      $('.results-area').append('<h3>' + movie.Title + '</h3>');
-      $('.results-area').append('<h4>' + movie.Year + '</h4>');
+      $('.results-area').append('<h4>' + movie.Title + '</h4>');
+      $('.results-area').append('<p>' + movie.Year + '</p>');
       $('.results-area').append('<img src="' + movie.Poster+ '">');
+
     $('.results-area').append('<a href= "http://www.imdb.com/title/' + movie.imdbDB + '"IMDB </a>');
 
   $('.results-area').append('</div>');

@@ -21,9 +21,9 @@ font-family: 'Fascinate Inline', cursive;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 55px;
   font-family: 'Montserrat', sans-serif;
-  padding-left: 230px;
+  padding-left: 210px;
   text-decoration: underline;
 }
 
@@ -31,11 +31,24 @@ h2 {
   padding-left: 175px;
 }
 
+
+h4 {
+  padding-left: 160px;
+  font-size: 30px;
+  display:inline;
+}
+
+p {
+  padding-left: 160px;
+  font-size: 20px;
+}
+
 img {
   border-style: solid;
   border-width: 5px;
   border-color: orange;
   margin-left: 160px;
+  margin-bottom: 30px;
 }
 .content li{
     text-transform: lowercase;
